@@ -26,7 +26,7 @@ Build a working reminder system with SMS interaction.
 ## Constraints
 - Keep infrastructure and services under $20/month
 - Prioritize simple, maintainable architecture
-- Use mock SMS locally before integrating a paid provider
+- Uses simulated SMS during development/before using a paid provider (real SMS integration requires A2P compliance setup for production use)
 - No user authentication in Phase 1 (phone number used as identifier)
 
 ## Future Ideas
